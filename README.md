@@ -133,16 +133,8 @@ lucas-land-cover-classification/
 - Access to the LUCAS dataset.
 - A GPU is recommended for faster training, but a CPU can be used.
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/YOUR_USERNAME/lucas-land-cover-classification.git
-cd lucas-land-cover-classification
-```
-
-Replace `YOUR_USERNAME` with your GitHub username.
-
-### 2. Create a Virtual Environment
+### 1. Create a Virtual Environment
 
 ```bash
 python -m venv venv
@@ -154,17 +146,17 @@ Activate the environment on Windows:
 venv\Scripts\activate
 ```
 
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Prepare the Dataset
+### 3. Prepare the Dataset
 
 Download or access the dataset through its authorized source. Configure the image directory and label paths to match the notebook's expected format.
 
-### 5. Run the Notebook
+### 4. Run the Notebook
 
 Open the notebook in Jupyter or upload it to Kaggle, configure the dataset paths, and execute the cells in order.
 
@@ -186,12 +178,4 @@ Open the notebook in Jupyter or upload it to Kaggle, configure the dataset paths
 - More complex preprocessing does not necessarily produce better results.
 - Careful experimentation and validation are essential for improving deep learning models.
 
-## 👨‍💻 Author
 
-**Maninder Saini**
-
-B.Tech Information Technology student interested in Machine Learning, Deep Learning, and Computer Vision.
-
-## 📄 License
-
-Add an appropriate open-source license after confirming that you have the right to distribute the project code. Dataset usage and redistribution remain subject to the dataset provider's terms.
